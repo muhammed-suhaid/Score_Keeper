@@ -37,7 +37,7 @@
         <div class="card-body">
             <h5 class="card-title">Ping Pong Score Keeper</h5>
 
-            <h1 class="card-text"><span>0</span> to <span>0</span></h1>
+            <h1 class="card-text"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
             <p class="card-text">Use the Button Below to Keep Score.</p>
 
             <div class="mb-3 d-flex align-items-center justify-content-center gap-2">
@@ -55,9 +55,9 @@
                 </select>
             </div>
 
-            <a href="#" class="btn btn-success">+ Player One</a>
-            <a href="#" class="btn btn-info">+ Player Two</a>
-            <a href="#" class="btn btn-danger">Reset</a>
+            <a class="btn btn-success" id="p1Button">+ Player One</a>
+            <a class="btn btn-info" id="p2Button">+ Player Two</a>
+            <a class="btn btn-danger" id="reset">Reset</a>
         </div>
     </div>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
